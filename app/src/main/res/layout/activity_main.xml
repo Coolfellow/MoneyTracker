@@ -9,7 +9,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Привет, Мир!"
+        android:shadowColor="@color/colorBackground"
+        android:text="@string/Russian_hello"
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
