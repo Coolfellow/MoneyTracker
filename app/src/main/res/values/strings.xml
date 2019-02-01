@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoneyTracker</string>
+    <string name="Russian_hello">Привет, Мир!</string>
 </resources>
