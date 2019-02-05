@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("MainActivity", "onStart: ");
+    }
+
+    @Override
     protected void onStop() {
         super.onStop();
         Log.i("MainActivity", "onStop: ");
@@ -36,9 +42,5 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MainActivity", "onPostResume: ");
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i("MainActivity", "onPostResume: ");
-    }
+
 }

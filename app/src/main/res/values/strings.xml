@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">MoneyTracker</string>
-    <string name="Russian_hello">Привет, Мир!</string>
+    <string name="add_item_title">Новая запись</string>
 </resources>
