@@ -17,7 +17,8 @@
         android:layout_height="68dp">
 
         <EditText
-            android:background="null"
+            android:id="@+id/name"
+            android:background="@null"
             android:hint="Название"
             android:layout_weight="1"
             android:maxLines="1"
@@ -26,6 +27,9 @@
             android:layout_height="wrap_content" />
 
         <EditText
+            android:id="@+id/price"
+            android:layout_marginLeft="12dp"
+            android:gravity="right"
             android:background="@null"
             android:hint="0 (₽)"
             android:layout_weight="1"
@@ -34,9 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <ImageButton
-            android:background="null"
-            android:src="@drawable/ic_add_black_24dp"
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/ic_add"
             android:layout_width="26dp"
             android:layout_height="26dp" />
 
